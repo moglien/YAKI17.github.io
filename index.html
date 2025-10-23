@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <filter id="filter">  
+        <feTurbulence baseFrequency=".002 .02" numOctaves="9" result="n"/>
+        <feDiffuseLighting surfaceScale="9" lighting-color="#BA8C63">
+            <feDistantLight elevation="60" azimuth="-90"/>
+        </feDiffuseLighting>
+        <feDisplacementMap in2="n" scale="50"/>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#filter)"/>
+</svg>
